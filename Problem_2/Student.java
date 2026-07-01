@@ -5,13 +5,11 @@ public class Student {
     private String name;
     private int[] marks;
 
-    // Parameterized Constructor
     public Student(String name, int[] marks) {
         this.name = name;
         this.marks = marks;
     }
 
-    // Getter methods
     public String getName() {
         return name;
     }
@@ -20,7 +18,6 @@ public class Student {
         return marks;
     }
 
-    // Setter methods
     public void setName(String name) {
         this.name = name;
     }
@@ -29,7 +26,6 @@ public class Student {
         this.marks = marks;
     }
 
-    // Method to calculate average
     public double calculateAverage() {
 
         if (marks == null || marks.length == 0) {
